@@ -11,6 +11,7 @@ public class Games
     private String names = "RDR2";
     private int prices=5000;
 
+
     public int getPrices() {
         return prices;
     }
@@ -35,13 +36,14 @@ public class Games
         this.id = id;
     }
 
+
     @Override
     public String toString() {
         return "Games{" +
                 "id=" + id +
                 ", names='" + names + '\'' +
-                ", prices=" + prices +
-                '}';
+                ", prices=" + prices
+                ;
     }
 }
 
